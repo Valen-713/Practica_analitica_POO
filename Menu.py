@@ -27,6 +27,11 @@ while Menu_funciones:
         resultado = cd.area_cuadrado()
         print("El area del cuadrado es: ", resultado)
         
-        
+    elif opcion ==3:
+        largo = float(input("Digite un valor de largo: "))
+        ancho = float(input("Digite un valor de ancho: "))
+        rc = Rectangulo(largo, ancho)
+        resultado = rc.area_rectangulo()
+        print("El area del rectangulo es: ", resultado)
 
     
