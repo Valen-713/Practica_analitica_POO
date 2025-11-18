@@ -4,7 +4,7 @@ class Triangulo(FigurasGeometricas):
         self.base = base
         self.altura = altura
     
-    def area(self):
+    def area_triangulo(self):
         return self.base * self.altura /2
     
     
