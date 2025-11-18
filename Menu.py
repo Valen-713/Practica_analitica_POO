@@ -33,5 +33,12 @@ while Menu_funciones:
         rc = Rectangulo(largo, ancho)
         resultado = rc.area_rectangulo()
         print("El area del rectangulo es: ", resultado)
+        
+    elif opcion ==4:
+        base = float(input("Digite un valor de base: "))
+        altura = float(input("Digite un valor de altura: "))
+        tr = Triangulo(base , altura)
+        resultado = tr.area_triangulo()
+        print("El area del triangulo es: ", resultado)
 
     
