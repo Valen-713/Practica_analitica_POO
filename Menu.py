@@ -21,6 +21,12 @@ while Menu_funciones:
         resultado = cr.area_circulo()
         print("El area del circulo es: ", resultado)
         
+    elif opcion ==2:
+        lado = float(input("Digite un valor de lado: "))
+        cd = Cuadrado(lado)
+        resultado = cd.area_cuadrado()
+        print("El area del cuadrado es: ", resultado)
+        
         
 
     
