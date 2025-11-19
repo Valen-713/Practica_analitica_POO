@@ -1,0 +1,23 @@
+from FigurasGeometricas import FigurasGeometricas
+
+class Paralelograma(FigurasGeometricas):
+    def __init__(self, nombre):
+        super().__init__(nombre)
+
+    @property
+    def base(self):
+        return self._base
+    
+    @base.setter
+    def base(self,base:float):
+        self._base=base
+    @property
+    def altura(self) -> float:
+        return self._altura
+    
+    @altura.setter
+    def altura(self, altura: float):
+        self._altura=altura
+
+    def area_paralelograma(self):
+        return (self.base * self.altura)
